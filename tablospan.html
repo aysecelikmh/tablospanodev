@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ <style>
+
+table ,th, td{ /*yanyana yazıp özellikler ekleyebiliriz.*/
+            border: 1px solid black;
+            
+        }
+
+        .renk{
+            background-color: brown;
+        }
+        .renk2{
+            background-color: blue;
+        }
+ </style>
+
+
+
+
+</head>
+
+<body>
+    
+    <div>
+        <table>
+            <title>Tablo</title>
+
+            <tr>
+                <td>bir</td>
+                <td>iki</td>
+                <td>üç</td>
+                <td>dört</td>
+                
+            </tr>
+
+
+            <tr>
+                <td>1.satır 1.sütun</td>
+                <td>1.satır 2.sütun</td>
+                <td>1.satır 3.sütun</td>
+                <td>1.satır 4.sütun</td>
+            </tr>
+
+
+            <tr>
+                <td>2.satır 1.sütun</td>
+                <td>2.satır 2.sütun</td>
+                <td class="renk" colspan="2">birleştirildi</td>
+             
+            </tr>
+
+            <tr>
+                <td>3.satır 1.sütun</td>
+                <td>3.satır 2.sütun</td>
+                <td>3.satır 3.sütun</td>
+                <td class="renk2" rowspan="2">Birleştirildi</td>
+            </tr>
+
+            <tr>
+                <td>4.satır 1.sütun</td>
+                <td>4.satır 2.sütun</td>
+                <td>4.satır 3.sütun</td>
+              
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
